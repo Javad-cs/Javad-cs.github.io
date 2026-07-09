@@ -2,19 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: javad2.jpeg
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -22,13 +18,15 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a fourth year undergraduate at KAIST, double majoring in Computer Science and Mathematics. Currently, I am Undergraduate Researcher at <a href="https://nlpcl.kaist.ac.kr/home/" style="color: inherit;">NLP*CL Lab</a> advised by Professor [Jong C. Park](https://nlpcl.kaist.ac.kr/prof/) where I work on evaluating and improving the reliability of multimodal language models. My research interests center around multimodal and generative AI, including but not limited to alignment and interpretability.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I worked as Undergraduate Research Intern at <a href="https://uilab.kr/" style="color: inherit;">U&I Lab</a> adviced by Professsor [Alice Oh](https://aliceoh9.github.io/), focusing on benchmarking and detecting model bias which led to <a href="https://arxiv.org/abs/2503.16826" style="color: inherit;">Outstanding Paper Award Paper</a> at Proceedings of the 3rd Workshop on Cross-Cultural Considerations in NLP (C3NLP) at NAACL2025.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I also had industry experince building generative workflows at Google Startup Campus at Smoretalk Co.,Ltd , and building agentic systems at Big Wave AI Co.,Ltd.
+
+Outside of research, I enjoy bouldering and solving competitive math olympiad problems.
